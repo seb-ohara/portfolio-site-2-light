@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+#mainCard{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 1100px;
+    margin-bottom: 10%;
+}
+
+#navBar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 10%;
+    justify-content: start
+}
+#navLeft{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-left: 20px;
+    font-size: large;
+    width: 80%;
+}
+#navLeft H2{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#navRight{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#navlink1{
+    padding: 20px;
+}
+#navBar a{
+    color: black;
+    font-weight: 400;
+}
+#navBar a:hover{
+    color: rgb(121, 121, 152);
+    transition: 0.5s ease;
+}
+a{
+    text-decoration: none;
+}
+#aboutMe{
+    margin: 20px;
+    background-color: rgba(255, 228, 196, 0);
+    height: 30%;
+    padding: 0px;
+}
+#aboutMe h2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#projects{
+    margin: 20px;
+    background-color: rgba(255, 228, 196, 0);
+    height: 60%;
+}
+#techStack{
+    margin: 20px;
+    background-color: rgba(255, 228, 196, 0);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#techIcons{
+    display: flex;
+    margin-top: 40px;
+    width: 60%;
+    justify-content: space-between;
+    
+}
+#techStack h3{
+    width: 100%;
+}
+.Icons{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px gray
+}
+.projectCards{
+    background-color: rgba(142, 142, 222, 0.003);
+    margin-top: 2%;
+    margin-bottom: 20px;
+    height: 33%;
+}
+
+
+
+
+#project1{
+    display: flex;
+}
+#projImg1{
+    background-color: rgb(138, 137, 164);
+    width: 50%;
+    background-image: url("high-angle-view-colorful-cardboard-papers.jpg");
+    background-size: cover;
+}
+#projDesc1{
+    background-color: rgba(99, 108, 125, 0.088);
+    width: 50%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#project2{
+    display: flex;
+}
+#projImg2{
+    background-color: rgb(138, 137, 164);
+    width: 50%;
+    background-image: url("UI\ Designs.png");
+    background-size: cover;
+}
+#projDesc2{
+    background-color: rgba(99, 108, 125, 0.088);
+    width: 50%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#project3{
+    display: flex;
+}
+#projImg3{
+    background-color: rgb(138, 137, 164);
+    width: 50%;
+    background-image: url("ui\ 2.webp");
+    background-size: cover;
+}
+#projDesc3{
+    background-color: rgba(99, 108, 125, 0.088);
+    width: 50%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#footer{
+    height: 120px;
+}
+
+#projects h2{
+    font-weight: 200;
+    width: 100%;
+    text-align: center;margin-bottom: 5%;
+}
+#projects h2:hover{
+    font-size: 180%;
+    transition: 0.5s ease-in-out;
+}
+@media (max-width: 650px){
+    #techIcons{
+        width: 80%;
+    }
+  }
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    transition: 0.7s ease;
+    height: 45px;
+    width: 75px;
+    font-weight: bold;
+}
