@@ -47,7 +47,6 @@ body{
     text-decoration: none;
     font-size: 120%;
 }
-
 #navlink1{
     padding: 20px;
 }
@@ -62,6 +61,19 @@ body{
 a{
     text-decoration: none;
 }
+#navIcon svg{
+    width: 40px;
+}
+#navIcon svg:hover{
+    width: 45px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+
+
+
+
 #aboutMe{
     margin: 20px;
     background-color: rgba(255, 228, 196, 0);
@@ -173,11 +185,25 @@ a{
     font-size: 180%;
     transition: 0.5s ease-in-out;
 }
-@media (max-width: 650px){
+@media (min-width: 650px){
     #techIcons{
         width: 80%;
     }
   }
+@media (min-width: 550px){
+    #navIcon svg{
+        display: none;
+    }
+}
+@media (max-width: 550px){
+    #techIcons{
+        width: 100%;
+    }
+    #navRight a{
+        display: none;
+    }
+  }
+
 
 button:hover{
     background-color: rgb(0, 0, 0);
