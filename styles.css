@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "Inter", serif;
 }
 
 body{
@@ -83,6 +83,10 @@ a{
 #aboutMe h2{
     margin-top: 10px;
     margin-bottom: 50px;
+    font-weight: 600;
+}
+#aboutMe p{
+    color: rgb(108, 108, 108);
 }
 
 #projects{
@@ -107,6 +111,8 @@ a{
 }
 #techStack h3{
     width: 100%;
+    margin-bottom: -30px;
+    text-align: center;
 }
 .Icons{
     width: 70px;
@@ -181,10 +187,10 @@ a{
     width: 100%;
     text-align: center;margin-bottom: 5%;
 }
-#projects h2:hover{
-    font-size: 180%;
-    transition: 0.5s ease-in-out;
-}
+
+
+
+
 @media (min-width: 650px){
     #techIcons{
         width: 80%;
@@ -203,14 +209,76 @@ a{
         display: none;
     }
   }
+  @media (max-width: 700px){
+    #mainCard{
+        width: 90%
+    }
+  }
 
 
-button:hover{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: none;
-    transition: 0.7s ease;
-    height: 45px;
-    width: 75px;
-    font-weight: bold;
+.techIcons img{
+    width: 50px;
+}
+.techIcons{
+    width: 10rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+/* animation for the techstack icons*/
+.techIcons:hover{
+    background-color: rgb(230, 230, 230);
+    width: 12rem;
+    height: 9rem;
+    transition: 0.7s;
+}
+
+/*Project 1 Icons*/
+#projDesc1{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
+#projDesc1 img{
+    width: 25px;
+}
+#proj1Icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+/*Project 2 Icons*/
+#projDesc2{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
+#projDesc2 img{
+    width: 25px;
+}
+#proj2Icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+/*Project 3 Icons*/
+#projDesc3{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
+#projDesc3 img{
+    width: 25px;
+}
+#proj3Icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
 }
