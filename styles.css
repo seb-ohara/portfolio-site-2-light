@@ -229,11 +229,13 @@ a{
 
 /* animation for the techstack icons*/
 .techIcons:hover{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(233, 233, 233);
     width: 12rem;
     height: 9rem;
     transition: 0.7s;
 }
+
+
 
 /*Project 1 Icons*/
 #projDesc1{
@@ -281,4 +283,33 @@ a{
     display: flex;
     justify-content: space-around;
     margin-bottom: 15px;
+}
+
+#footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+#footer a{
+    height: 50px;
+    width: 90px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(36, 32, 43);
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#footer a:hover{
+    font-weight: bold;
+    transition: 0.3s;
+    width: 95px;
+    height: 52px;
+    background-color: rgb(58, 63, 87);
 }
